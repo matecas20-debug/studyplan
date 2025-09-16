@@ -585,7 +585,7 @@ Task: Explain the main meaning that each verb has, let's do it one by one, not a
       if(!el) return;
       navigator.clipboard.writeText(el.innerText).then(()=>{
         const orig=document.activeElement; // not used but keep
-        alert('Copied to clipboard');
+        //alert('Copied to clipboard');
       }).catch(()=>{alert('Copy failed — your browser may block clipboard access')});
     }
   </script>
