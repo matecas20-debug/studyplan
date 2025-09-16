@@ -1,379 +1,593 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>30-Day Advanced Grammar + 3 Phrasal Verbs Speaking Plan</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30-Day Advanced Grammar + Vocabulary Practice</title>
   <style>
-    :root{
-      --bg:#0f1724;
-      --card:#0b1220;
-      --muted:#94a3b8;
-      --accent:#7c3aed;
-      --glass: rgba(255,255,255,0.04);
-      --radius:16px;
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,#071028 0%, #07172a 50%, #031023 100%);color:#e6eef8;min-height:100vh}
-    .container{max-width:1100px;margin:36px auto;padding:28px}
-    header{display:flex;align-items:center;gap:18px;margin-bottom:18px}
-    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:800;color:white;font-size:20px;box-shadow:0 8px 30px rgba(12,15,30,0.6)}
-    h1{font-size:20px;margin:0}
-    p.lead{color:var(--muted);margin:6px 0 0}
-
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:16px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
-
-    .main{padding:12px}
-    .sidebar{padding:12px}
-
-    .week{margin-bottom:14px}
-    .week h2{font-size:16px;margin:0 0 8px}
-    .day{background:var(--card);padding:12px;border-radius:12px;margin-bottom:10px;border:1px solid rgba(255,255,255,0.02)}
-    .day .meta{display:flex;gap:10px;align-items:center;justify-content:space-between}
-    .day h3{margin:0;font-size:15px}
-    .pv{color:var(--accent);font-weight:600}
-    .prompt{margin-top:8px;background:var(--glass);padding:10px;border-radius:8px;color:#dbeafe;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Helvetica Neue', monospace;font-size:13px;white-space:pre-wrap}
-    .actions{display:flex;gap:8px;margin-top:10px}
-    button.copy{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 10px;border-radius:10px;color:var(--muted);cursor:pointer}
-    button.copy:hover{border-color:var(--accent);color:var(--accent)}
-
-    .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
-    .btn{background:linear-gradient(90deg,var(--accent),#06b6d4);border:none;color:white;padding:10px 12px;border-radius:10px;cursor:pointer;font-weight:600}
-    .muted{color:var(--muted);font-size:13px}
-
-    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
-
-    /* Responsive */
-    @media (max-width:980px){.grid{grid-template-columns:1fr;}.sidebar{order:2}.main{order:1}}
-    details summary{cursor:pointer;outline:none}
-    .day pre{margin:0}
+    :root{--accent:#3498db;--bg:#f4f6f9;--card:#ffffff}
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#222}
+    header{background:#2c3e50;color:white;padding:20px;text-align:center}
+    .container{max-width:1100px;margin:20px auto;padding:18px}
+    .toc{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:18px}
+    .toc h2{margin:0 0 8px}
+    .toc ul{columns:2;margin:0;padding:0;list-style:none}
+    .toc a{text-decoration:none;color:#2c3e50}
+    section{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:14px}
+    h2.day{margin:0 0 8px;font-size:18px;color:#2c3e50}
+    .subsection{background:#f7fbff;border-left:4px solid var(--accent);padding:12px;border-radius:6px;position:relative;margin-top:10px}
+    .subsection h3{margin:0 0 8px;font-size:15px}
+    .prompt{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,'Roboto Mono',monospace;background:transparent;padding:6px}
+    .copy-btn{position:absolute;right:10px;top:10px;background:var(--accent);color:white;border:none;padding:6px 9px;border-radius:6px;cursor:pointer}
+    footer{color:#555;text-align:center;margin-top:12px;padding:12px}
+    @media(max-width:900px){.toc ul{columns:1}}
   </style>
 </head>
 <body>
+  <header>
+    <h1>30-Day Advanced Grammar + Vocabulary Practice</h1>
+    <p style="margin:6px 0 0;color:#dbe7f5">Each day has two independent sections: Grammar (focus only on grammar) and Vocabulary (3 phrasal verbs + 3 advanced single verbs). Use the copy buttons to paste prompts into your AI or study tool.</p>
+  </header>
+
   <div class="container">
-    <header>
-      <div class="logo">30</div>
-      <div>
-        <h1>30-Day Advanced Grammar + 3 Phrasal Verbs Speaking Plan</h1>
-        <p class="lead">Full month plan with grammar focus, 3 phrasal verbs, a practice prompt, and some suggested questions to practice with for each day.</p>
-      </div>
-    </header>
-
-    <div class="grid">
-      <div class="main card">
-        <!-- Insert the exact content below, formatted into accordions per week/day -->
-
-        <section class="week">
-          <h2>Week 1: Conditionals & Hypotheticals</h2>
-
-          <div class="day" id="day1">
-            <div class="meta"><h3>Day 1 – Mixed Conditionals (past → present)</h3><div class="pv">Phrasal verbs: give up, figure out, take up</div></div>
-            <div class="prompt" data-day="1">"First, explain mixed conditionals where a past action affects the present. Then, teach me the phrasal verbs **give up**, **figure out**, and **take up**. After that, ask me to create 3 examples from my life using mixed conditionals and include these phrasal verbs. Some suggested questions to practice with:
-- If you hadn’t given up on something in the past, how would life be different now?
-- What’s something you wish you had figured out earlier?
-- If you had taken up a skill earlier, how would it affect your present?"</div>
-            <div class="actions"><button class="copy" data-target="1">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day2">
-            <div class="meta"><h3>Day 2 – Mixed Conditionals (present → past)</h3><div class="pv">Phrasal verbs: hold back, carry out, break into</div></div>
-            <div class="prompt" data-day="2">"First, explain mixed conditionals where a present situation affects the past. Then, teach me **hold back**, **carry out**, and **break into**. After that, ask me to create examples. Some suggested questions to practice with:
-- If you weren’t holding back now, what would you have carried out earlier?
-- If you were braver, what would you have broken into (a field, a skill) in the past?
-- How would your life look today if you didn’t hold back so much?"</div>
-            <div class="actions"><button class="copy" data-target="2">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day3">
-            <div class="meta"><h3>Day 3 – Third Conditional (regrets/speculation)</h3><div class="pv">Phrasal verbs: break down, turn out, fall through</div></div>
-            <div class="prompt" data-day="3">"First, explain the third conditional. Then, teach me **break down**, **turn out**, and **fall through**. After that, ask me to describe regrets using them. Some suggested questions to practice with:
-- If your plans hadn’t broken down, how would things have turned out?
-- If an opportunity hadn’t fallen through, where would you be now?
-- If you had handled things differently, how would it all have turned out?"</div>
-            <div class="actions"><button class="copy" data-target="3">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day4">
-            <div class="meta"><h3>Day 4 – Second Conditional (imagination)</h3><div class="pv">Phrasal verbs: set up, run into, take off</div></div>
-            <div class="prompt" data-day="4">"First, explain the second conditional. Then, teach me **set up**, **run into**, and **take off**. After that, ask me to describe my dream lifestyle. Some suggested questions to practice with:
-- If you could set up any company, what would it be?
-- If your idea suddenly took off, how would your life change?
-- If you ran into your favorite celebrity, what would you say?"</div>
-            <div class="actions"><button class="copy" data-target="4">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day5">
-            <div class="meta"><h3>Day 5 – Inverted Conditionals (Had I…, Were I…, Should I…)</h3><div class="pv">Phrasal verbs: bring up, put off, call off</div></div>
-            <div class="prompt" data-day="5">"First, explain inverted conditionals. Then, teach me **bring up**, **put off**, and **call off**. After that, ask me to use them in advice sentences. Some suggested questions to practice with:
-- Were you to bring up a delicate subject, how would you do it?
-- Had you not put off an important decision, how would things be different?
-- Should an event be called off, how would you react?"</div>
-            <div class="actions"><button class="copy" data-target="5">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day6">
-            <div class="meta"><h3>Day 6 – Wish + Past Simple / Past Perfect</h3><div class="pv">Phrasal verbs: make up, come across, get over</div></div>
-            <div class="prompt" data-day="6">"First, explain wish structures. Then, teach me **make up**, **come across**, and **get over**. After that, ask me to share present wishes and past regrets. Some suggested questions to practice with:
-- What do you wish you had made up after an argument?
-- What do you wish you had come across earlier in life?
-- What do you wish you could get over more easily?"</div>
-            <div class="actions"><button class="copy" data-target="6">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day7">
-            <div class="meta"><h3>Day 7 – If only… (strong wishes/regrets)</h3><div class="pv">Phrasal verbs: look after, find out, give in</div></div>
-            <div class="prompt" data-day="7">"First, explain ‘If only…’. Then, teach me **look after**, **find out**, and **give in**. After that, ask me to create strong wishes/regrets. Some suggested questions to practice with:
-- If only you had found out something earlier, how would life change?
-- If only people looked after each other more, what would happen?
-- If only you hadn’t given in once, how would things be different now?"</div>
-            <div class="actions"><button class="copy" data-target="7">Copy prompt</button></div>
-          </div>
-
-        </section>
-
-        <section class="week">
-          <h2>Week 2: Advanced Verb Forms</h2>
-
-          <div class="day" id="day8">
-            <div class="meta"><h3>Day 8 – Future Perfect</h3><div class="pv">Phrasal verbs: work out, fall apart, put together</div></div>
-            <div class="prompt" data-day="8">"First, explain the future perfect. Then, teach me **work out**, **fall apart**, and **put together**. After that, ask me to predict achievements by 2035. Some suggested questions to practice with:
-- What will you have worked out in your career in 10 years?
-- What will have fallen apart in society by 2050?
-- What will you have put together by the time you’re 40?"</div>
-            <div class="actions"><button class="copy" data-target="8">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day9">
-            <div class="meta"><h3>Day 9 – Future Continuous</h3><div class="pv">Phrasal verbs: hang out, check out, chill out</div></div>
-            <div class="prompt" data-day="9">"First, explain the future continuous. Then, teach me **hang out**, **check out**, and **chill out**. After that, ask me to describe what I’ll be doing this weekend. Some suggested questions to practice with:
-- Who will you be hanging out with next weekend?
-- What new place will you be checking out soon?
-- When will you be chilling out and relaxing next?"</div>
-            <div class="actions"><button class="copy" data-target="9">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day10">
-            <div class="meta"><h3>Day 10 – Past Perfect Continuous</h3><div class="pv">Phrasal verbs: take over, run out, hold on</div></div>
-            <div class="prompt" data-day="10">"First, explain the past perfect continuous. Then, teach me **take over**, **run out**, and **hold on**. After that, ask me to tell a story about something that happened after I had been doing something for a long time. Some suggested questions to practice with:
-- What had been taking over your time before an important event?
-- What had you been doing when you suddenly ran out of energy?
-- What had you been holding on to for too long?"</div>
-            <div class="actions"><button class="copy" data-target="10">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day11">
-            <div class="meta"><h3>Day 11 – Modals of Deduction (past)</h3><div class="pv">Phrasal verbs: carry on, point out, wind up</div></div>
-            <div class="prompt" data-day="11">"First, explain modals of deduction in the past. Then, teach me **carry on**, **point out**, and **wind up**. After that, ask me to describe a mysterious situation and make guesses. Some suggested questions to practice with:
-- What must have been carried on in secret in history?
-- What might someone have pointed out to you that changed your perspective?
-- How could you have wound up in a completely different life?"</div>
-            <div class="actions"><button class="copy" data-target="11">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day12">
-            <div class="meta"><h3>Day 12 – Modals in the Future</h3><div class="pv">Phrasal verbs: cut down, pick up, kick off</div></div>
-            <div class="prompt" data-day="12">"First, explain modals in the future. Then, teach me **cut down**, **pick up**, and **kick off**. After that, ask me to predict future challenges. Some suggested questions to practice with:
-- What habits will people have to cut down on in the future?
-- What new skills will people need to pick up?
-- What global changes will kick off in the next decade?"</div>
-            <div class="actions"><button class="copy" data-target="12">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day13">
-            <div class="meta"><h3>Day 13 – Cleft Sentences</h3><div class="pv">Phrasal verbs: bring about, get through, pull off</div></div>
-            <div class="prompt" data-day="13">"First, explain cleft sentences. Then, teach me **bring about**, **get through**, and **pull off**. After that, ask me to retell a story emphasizing certain details. Some suggested questions to practice with:
-- What event brought about the biggest change in your life?
-- What helped you get through a hard moment?
-- What amazing thing have you pulled off?"</div>
-            <div class="actions"><button class="copy" data-target="13">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day14">
-            <div class="meta"><h3>Day 14 – Passive with Reporting Verbs</h3><div class="pv">Phrasal verbs: go on, look into, build up</div></div>
-            <div class="prompt" data-day="14">"First, explain passive reporting verbs. Then, teach me **go on**, **look into**, and **build up**. After that, ask me to talk about common beliefs. Some suggested questions to practice with:
-- What is believed to have gone on behind the scenes in politics?
-- What should be looked into more by scientists?
-- What good habits should be built up over time?"</div>
-            <div class="actions"><button class="copy" data-target="14">Copy prompt</button></div>
-          </div>
-
-        </section>
-
-        <section class="week">
-          <h2>Week 3: Advanced Structures for Fluency</h2>
-
-          <div class="day" id="day15">
-            <div class="meta"><h3>Day 15 – Relative Clauses with prepositions</h3><div class="pv">Phrasal verbs: rely on, back up, check in</div></div>
-            <div class="prompt" data-day="15">"First, explain relative clauses with prepositions. Then, teach me **rely on**, **back up**, and **check in**. After that, ask me to describe someone important. Some suggested questions to practice with:
-- Who do you rely on the most?
-- What ideas would you always back up?
-- Who do you check in with regularly?"</div>
-            <div class="actions"><button class="copy" data-target="15">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day16">
-            <div class="meta"><h3>Day 16 – Reduced Relative Clauses</h3><div class="pv">Phrasal verbs: go over, come up with, drop out</div></div>
-            <div class="prompt" data-day="16">"First, explain reduced relative clauses. Then, teach me **go over**, **come up with**, and **drop out**. After that, ask me to describe people I know or admire. Some suggested questions to practice with:
-- What’s the best idea you’ve ever come up with?
-- What details do you usually go over carefully?
-- Why do people drop out of projects or school?"</div>
-            <div class="actions"><button class="copy" data-target="16">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day17">
-            <div class="meta"><h3>Day 17 – Participle Clauses</h3><div class="pv">Phrasal verbs: end up, hand in, look back on</div></div>
-            <div class="prompt" data-day="17">"First, explain participle clauses. Then, teach me **end up**, **hand in**, and **look back on**. After that, ask me to tell a story connecting actions. Some suggested questions to practice with:
-- When have you ended up in an unexpected situation?
-- What’s the most important thing you’ve ever handed in?
-- What do you look back on with pride?"</div>
-            <div class="actions"><button class="copy" data-target="17">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day18">
-            <div class="meta"><h3>Day 18 – Nominalization</h3><div class="pv">Phrasal verbs: cut off, bring in, lay off</div></div>
-            <div class="prompt" data-day="18">"First, explain nominalization. Then, teach me **cut off**, **bring in**, and **lay off**. After that, ask me to talk about technology. Some suggested questions to practice with:
-- What invention brought in the biggest change in your life?
-- How would people feel if they were cut off from the internet?
-- What company has laid off too many workers recently?"</div>
-            <div class="actions"><button class="copy" data-target="18">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day19">
-            <div class="meta"><h3>Day 19 – Inversion for Emphasis</h3><div class="pv">Phrasal verbs: turn down, put up with, speak out</div></div>
-            <div class="prompt" data-day="19">"First, explain inversion for emphasis. Then, teach me **turn down**, **put up with**, and **speak out**. After that, ask me to share extreme experiences. Some suggested questions to practice with:
-- Never have I put up with such a situation… (finish).
-- Rarely have I turned down such an opportunity… (explain).
-- When did you have to speak out about something important?"</div>
-            <div class="actions"><button class="copy" data-target="19">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day20">
-            <div class="meta"><h3>Day 20 – Ellipsis & Substitution</h3><div class="pv">Phrasal verbs: take up, fill in, leave out</div></div>
-            <div class="prompt" data-day="20">"First, explain ellipsis and substitution. Then, teach me **take up**, **fill in**, and **leave out**. After that, ask me to talk about hobbies. Some suggested questions to practice with:
-- What new activity have you taken up recently?
-- When did you last have to fill in something important?
-- What details do you sometimes leave out when telling stories?"</div>
-            <div class="actions"><button class="copy" data-target="20">Copy prompt</button></div>
-          </div>
-
-        </section>
-
-        <section class="week">
-          <h2>Week 4: Polished, Natural English</h2>
-
-          <div class="day" id="day21">
-            <div class="meta"><h3>Day 21 – Fronting</h3><div class="pv">Phrasal verbs: set off, catch up, keep up</div></div>
-            <div class="prompt" data-day="21">"First, explain fronting. Then, teach me **set off**, **catch up**, and **keep up**. After that, ask me to talk about priorities. Some suggested questions to practice with:
-- What I really want is… (finish).
-- Who do you enjoy catching up with the most?
-- How do you keep up with trends or news?"</div>
-            <div class="actions"><button class="copy" data-target="21">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day22">
-            <div class="meta"><h3>Day 22 – Reported Speech (advanced)</h3><div class="pv">Phrasal verbs: call off, check in, pass on</div></div>
-            <div class="prompt" data-day="22">"First, explain reported speech. Then, teach me **call off**, **check in**, and **pass on**. After that, ask me to retell a conversation. Some suggested questions to practice with:
-- Have you ever had an important plan called off?
-- Who did you check in with recently?
-- What useful advice was passed on to you?"</div>
-            <div class="actions"><button class="copy" data-target="22">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day23">
-            <div class="meta"><h3>Day 23 – Reporting Verbs</h3><div class="pv">Phrasal verbs: find out, look forward to, bring up</div></div>
-            <div class="prompt" data-day="23">"First, explain reporting verbs. Then, teach me **find out**, **look forward to**, and **bring up**. After that, ask me to retell a story. Some suggested questions to practice with:
-- What surprising thing did you find out recently?
-- What are you looking forward to this year?
-- What sensitive topics do people usually bring up?"</div>
-            <div class="actions"><button class="copy" data-target="23">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day24">
-            <div class="meta"><h3>Day 24 – Concessive Clauses</h3><div class="pv">Phrasal verbs: run into, sort out, brush up on</div></div>
-            <div class="prompt" data-day="24">"First, explain concessive clauses. Then, teach me **run into**, **sort out**, and **brush up on**. After that, ask me to talk about a challenge I overcame. Some suggested questions to practice with:
-- Have you ever run into an unexpected problem?
-- What difficult situation have you sorted out?
-- What skill should you brush up on soon?"</div>
-            <div class="actions"><button class="copy" data-target="24">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day25">
-            <div class="meta"><h3>Day 25 – Expressions with ‘as’</h3><div class="pv">Phrasal verbs: bring up, get along, open up</div></div>
-            <div class="prompt" data-day="25">"First, explain advanced ‘as’ expressions. Then, teach me **bring up**, **get along**, and **open up**. After that, ask me to share opinions. Some suggested questions to practice with:
-- What topic would you never bring up?
-- Who do you get along with the best?
-- When do you usually open up to others?"</div>
-            <div class="actions"><button class="copy" data-target="25">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day26">
-            <div class="meta"><h3>Day 26 – Double Comparatives</h3><div class="pv">Phrasal verbs: pick out, cut back, show up</div></div>
-            <div class="prompt" data-day="26">"First, explain double comparatives. Then, teach me **pick out**, **cut back**, and **show up**. After that, ask me to talk about habits. Some suggested questions to practice with:
-- The more you cut back on something, the better life gets… explain.
-- The more carefully you pick out things, the happier you are… why?
-- How does showing up on time change relationships?"</div>
-            <div class="actions"><button class="copy" data-target="26">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day27">
-            <div class="meta"><h3>Day 27 – Advanced Linking Devices</h3><div class="pv">Phrasal verbs: go on, break into, turn up</div></div>
-            <div class="prompt" data-day="27">"First, explain advanced linking devices. Then, teach me **go on**, **break into**, and **turn up**. After that, ask me to debate pros/cons. Some suggested questions to practice with:
-- Not only do people go on using social media, but… (continue).
-- How difficult is it to break into a new industry?
-- What do you do when opportunities suddenly turn up?"</div>
-            <div class="actions"><button class="copy" data-target="27">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day28">
-            <div class="meta"><h3>Day 28 – Emphatic ‘do’</h3><div class="pv">Phrasal verbs: put together, look back on, step up</div></div>
-            <div class="prompt" data-day="28">"First, explain emphatic ‘do’. Then, teach me **put together**, **look back on**, and **step up**. After that, ask me to insist on opinions. Some suggested questions to practice with:
-- What’s something you proudly put together?
-- What do you look back on fondly?
-- When did you have to step up and take responsibility?"</div>
-            <div class="actions"><button class="copy" data-target="28">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day29">
-            <div class="meta"><h3>Day 29 – Mixed Structures Practice</h3><div class="pv">Phrasal verbs: go through, bring out, check out</div></div>
-            <div class="prompt" data-day="29">"First, review all advanced structures. Then, teach me **go through**, **bring out**, and **check out**. After that, ask me to tell a personal story mixing grammar points. Some suggested questions to practice with:
-- What have you gone through that made you stronger?
-- Who brings out the best in you?
-- What new thing have you checked out recently?"</div>
-            <div class="actions"><button class="copy" data-target="29">Copy prompt</button></div>
-          </div>
-
-          <div class="day" id="day30">
-            <div class="meta"><h3>Day 30 – Final Reflection</h3><div class="pv">Phrasal verbs: wrap up, move on, take over</div></div>
-            <div class="prompt" data-day="30">"First, explain how to combine advanced structures naturally. Then, teach me **wrap up**, **move on**, and **take over**. After that, ask me to reflect on my English journey. Some suggested questions to practice with:
-- How would you wrap up this learning month?
-- What will you move on to next?
-- How might English take over more areas of your life?"</div>
-            <div class="actions"><button class="copy" data-target="30">Copy prompt</button></div>
-          </div>
-
-        </section>
-
-        <footer>That's the full 30-day plan — each day includes a grammar focus, 3 phrasal verbs, a practice prompt, and some suggested questions to practice with.</footer>
-      </div>
+    <div class="toc">
+      <h2>Table of Contents (Days 1–30)</h2>
+      <ul>
+        <li><a href="#day1">Day 1 — Mixed Conditionals / Vocabulary</a></li>
+        <li><a href="#day2">Day 2 — Mixed Conditionals (present→past) / Vocabulary</a></li>
+        <li><a href="#day3">Day 3 — Third Conditional / Vocabulary</a></li>
+        <li><a href="#day4">Day 4 — Second Conditional / Vocabulary</a></li>
+        <li><a href="#day5">Day 5 — Inverted Conditionals / Vocabulary</a></li>
+        <li><a href="#day6">Day 6 — Wish + Past / Vocabulary</a></li>
+        <li><a href="#day7">Day 7 — If only… / Vocabulary</a></li>
+        <li><a href="#day8">Day 8 — Future Perfect / Vocabulary</a></li>
+        <li><a href="#day9">Day 9 — Future Continuous / Vocabulary</a></li>
+        <li><a href="#day10">Day 10 — Past Perfect Continuous / Vocabulary</a></li>
+        <li><a href="#day11">Day 11 — Modals of Deduction (past) / Vocabulary</a></li>
+        <li><a href="#day12">Day 12 — Modals in the Future / Vocabulary</a></li>
+        <li><a href="#day13">Day 13 — Cleft Sentences / Vocabulary</a></li>
+        <li><a href="#day14">Day 14 — Passive with Reporting Verbs / Vocabulary</a></li>
+        <li><a href="#day15">Day 15 — Relative Clauses with Prepositions / Vocabulary</a></li>
+        <li><a href="#day16">Day 16 — Reduced Relative Clauses / Vocabulary</a></li>
+        <li><a href="#day17">Day 17 — Participle Clauses / Vocabulary</a></li>
+        <li><a href="#day18">Day 18 — Nominalization / Vocabulary</a></li>
+        <li><a href="#day19">Day 19 — Inversion for Emphasis / Vocabulary</a></li>
+        <li><a href="#day20">Day 20 — Ellipsis & Substitution / Vocabulary</a></li>
+        <li><a href="#day21">Day 21 — Fronting / Vocabulary</a></li>
+        <li><a href="#day22">Day 22 — Reported Speech (advanced) / Vocabulary</a></li>
+        <li><a href="#day23">Day 23 — Reporting Verbs / Vocabulary</a></li>
+        <li><a href="#day24">Day 24 — Concessive Clauses / Vocabulary</a></li>
+        <li><a href="#day25">Day 25 — Expressions with 'as' / Vocabulary</a></li>
+        <li><a href="#day26">Day 26 — Double Comparatives / Vocabulary</a></li>
+        <li><a href="#day27">Day 27 — Advanced Linking Devices / Vocabulary</a></li>
+        <li><a href="#day28">Day 28 — Emphatic 'do' / Vocabulary</a></li>
+        <li><a href="#day29">Day 29 — Mixed Structures Practice / Vocabulary</a></li>
+        <li><a href="#day30">Day 30 — Final Reflection / Vocabulary</a></li>
+      </ul>
     </div>
+
+    <!-- Day 1 -->
+    <section id="day1">
+      <h2 class="day">Day 1 — Mixed Conditionals (past → present)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar1')">Copy</button>
+        <div id="grammar1" class="prompt">Explain me advanced conditionals focusing on mixed conditionals where a past action affects the present, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab1')">Copy</button>
+        <div id="vocab1" class="prompt">Phrasal verbs: put off, come across, carry out
+Advanced verbs: strive, overcome, adapt
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 2 -->
+    <section id="day2">
+      <h2 class="day">Day 2 — Mixed Conditionals (present → past)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar2')">Copy</button>
+        <div id="grammar2" class="prompt">Explain me mixed conditionals where a present situation affects the past, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab2')">Copy</button>
+        <div id="vocab2" class="prompt">Phrasal verbs: bring up, look after, turn down
+Advanced verbs: grant, pursue, reflect
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 3 -->
+    <section id="day3">
+      <h2 class="day">Day 3 — Third Conditional (regrets/speculation)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar3')">Copy</button>
+        <div id="grammar3" class="prompt">Explain me the third conditional (regrets/speculation), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab3')">Copy</button>
+        <div id="vocab3" class="prompt">Phrasal verbs: get along, run into, take over
+Advanced verbs: regret, assume, endure
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 4 -->
+    <section id="day4">
+      <h2 class="day">Day 4 — Second Conditional (imagination)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar4')">Copy</button>
+        <div id="grammar4" class="prompt">Explain me the second conditional (imagination), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab4')">Copy</button>
+        <div id="vocab4" class="prompt">Phrasal verbs: break down, figure out, set up
+Advanced verbs: achieve, manage, persuade
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 5 -->
+    <section id="day5">
+      <h2 class="day">Day 5 — Inverted Conditionals (Had I…, Were I…, Should I…)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar5')">Copy</button>
+        <div id="grammar5" class="prompt">Explain me inverted conditionals (Had I…, Were I…, Should I…), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab5')">Copy</button>
+        <div id="vocab5" class="prompt">Phrasal verbs: point out, work out, give up
+Advanced verbs: acknowledge, confront, anticipate
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 6 -->
+    <section id="day6">
+      <h2 class="day">Day 6 — Wish + Past Simple / Past Perfect</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar6')">Copy</button>
+        <div id="grammar6" class="prompt">Explain me wish structures (Wish + Past Simple / Past Perfect), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab6')">Copy</button>
+        <div id="vocab6" class="prompt">Phrasal verbs: go over, pick up, put up with
+Advanced verbs: forgive, realize, regret
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 7 -->
+    <section id="day7">
+      <h2 class="day">Day 7 — If only… (strong wishes/regrets)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar7')">Copy</button>
+        <div id="grammar7" class="prompt">Explain me 'If only...' for strong wishes/regrets, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab7')">Copy</button>
+        <div id="vocab7" class="prompt">Phrasal verbs: look forward to, cut down on, run out of
+Advanced verbs: trust, reveal, ignore
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 8 -->
+    <section id="day8">
+      <h2 class="day">Day 8 — Future Perfect</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar8')">Copy</button>
+        <div id="grammar8" class="prompt">Explain me the future perfect, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab8')">Copy</button>
+        <div id="vocab8" class="prompt">Phrasal verbs: bring about, come up with, get rid of
+Advanced verbs: accomplish, expand, contribute
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 9 -->
+    <section id="day9">
+      <h2 class="day">Day 9 — Future Continuous</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar9')">Copy</button>
+        <div id="grammar9" class="prompt">Explain me the future continuous, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab9')">Copy</button>
+        <div id="vocab9" class="prompt">Phrasal verbs: take after, look up, look up to
+Advanced verbs: enjoy, maintain, engage
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 10 -->
+    <section id="day10">
+      <h2 class="day">Day 10 — Past Perfect Continuous</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar10')">Copy</button>
+        <div id="grammar10" class="prompt">Explain me the past perfect continuous, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab10')">Copy</button>
+        <div id="vocab10" class="prompt">Phrasal verbs: turn up, carry on, end up
+Advanced verbs: delay, devote, acquire
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 11 -->
+    <section id="day11">
+      <h2 class="day">Day 11 — Modals of Deduction (past)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar11')">Copy</button>
+        <div id="grammar11" class="prompt">Explain me modals of deduction in the past, explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab11')">Copy</button>
+        <div id="vocab11" class="prompt">Phrasal verbs: look into, find out, make up for
+Advanced verbs: assess, suppose, doubt
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 12 -->
+    <section id="day12">
+      <h2 class="day">Day 12 — Modals in the Future</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar12')">Copy</button>
+        <div id="grammar12" class="prompt">Explain me modals used to talk about the future (possibility, prediction, obligation), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab12')">Copy</button>
+        <div id="vocab12" class="prompt">Phrasal verbs: take up, fall behind, catch up with
+Advanced verbs: improve, resist, adapt
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 13 -->
+    <section id="day13">
+      <h2 class="day">Day 13 — Cleft Sentences</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar13')">Copy</button>
+        <div id="grammar13" class="prompt">Explain me cleft sentences (how to emphasise information using it/what/where constructions), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab13')">Copy</button>
+        <div id="vocab13" class="prompt">Phrasal verbs: call off, come across, go through with
+Advanced verbs: foster, generate, inspire
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 14 -->
+    <section id="day14">
+      <h2 class="day">Day 14 — Passive with Reporting Verbs</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar14')">Copy</button>
+        <div id="grammar14" class="prompt">Explain me passive structures with reporting verbs (how to report information in passive voice), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab14')">Copy</button>
+        <div id="vocab14" class="prompt">Phrasal verbs: come down with, drop out, turn out
+Advanced verbs: investigate, claim, assume
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 15 -->
+    <section id="day15">
+      <h2 class="day">Day 15 — Relative Clauses with Prepositions</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar15')">Copy</button>
+        <div id="grammar15" class="prompt">Explain me relative clauses with prepositions (placing the preposition before the relative pronoun or using preposition + which/who), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab15')">Copy</button>
+        <div id="vocab15" class="prompt">Phrasal verbs: bring in, get away with, go on
+Advanced verbs: rely, convince, ensure
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 16 -->
+    <section id="day16">
+      <h2 class="day">Day 16 — Reduced Relative Clauses</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar16')">Copy</button>
+        <div id="grammar16" class="prompt">Explain me reduced relative clauses (how to shorten relative clauses using participles), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab16')">Copy</button>
+        <div id="vocab16" class="prompt">Phrasal verbs: keep up with, take part in, set out
+Advanced verbs: invent, establish, decide
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 17 -->
+    <section id="day17">
+      <h2 class="day">Day 17 — Participle Clauses</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar17')">Copy</button>
+        <div id="grammar17" class="prompt">Explain me participle clauses (reduced clauses using present/past participles to show time/cause/result), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab17')">Copy</button>
+        <div id="vocab17" class="prompt">Phrasal verbs: run out, go ahead, bring up
+Advanced verbs: accept, regret, recall
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 18 -->
+    <section id="day18">
+      <h2 class="day">Day 18 — Nominalization</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar18')">Copy</button>
+        <div id="grammar18" class="prompt">Explain me nominalization (turning verbs/adjectives into nouns to create a more formal or compact style), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab18')">Copy</button>
+        <div id="vocab18" class="prompt">Phrasal verbs: break out, deal with, hold back
+Advanced verbs: consider, reduce, affect
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 19 -->
+    <section id="day19">
+      <h2 class="day">Day 19 — Inversion for Emphasis</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar19')">Copy</button>
+        <div id="grammar19" class="prompt">Explain me inversion for emphasis (using structures like Never have I..., Rarely had..., Only then did...), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab19')">Copy</button>
+        <div id="vocab19" class="prompt">Phrasal verbs: lay off, cut back on, take on
+Advanced verbs: oppose, determine, reveal
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 20 -->
+    <section id="day20">
+      <h2 class="day">Day 20 — Ellipsis & Substitution</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar20')">Copy</button>
+        <div id="grammar20" class="prompt">Explain me ellipsis and substitution (how to omit repeated words and replace elements to avoid repetition), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab20')">Copy</button>
+        <div id="vocab20" class="prompt">Phrasal verbs: show off, bring back, cut off
+Advanced verbs: clarify, involve, emphasize
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 21 -->
+    <section id="day21">
+      <h2 class="day">Day 21 — Fronting</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar21')">Copy</button>
+        <div id="grammar21" class="prompt">Explain me fronting (moving elements to the front for emphasis or style), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab21')">Copy</button>
+        <div id="vocab21" class="prompt">Phrasal verbs: stand out, work on, sort out
+Advanced verbs: achieve, demand, discover
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 22 -->
+    <section id="day22">
+      <h2 class="day">Day 22 — Reported Speech (advanced)</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar22')">Copy</button>
+        <div id="grammar22" class="prompt">Explain me reported speech (advanced transformations and backshifting), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab22')">Copy</button>
+        <div id="vocab22" class="prompt">Phrasal verbs: bring down, carry on, set off
+Advanced verbs: deliver, maintain, adjust
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 23 -->
+    <section id="day23">
+      <h2 class="day">Day 23 — Reporting Verbs</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar23')">Copy</button>
+        <div id="grammar23" class="prompt">Explain me reporting verbs (advanced uses and when to change tenses/clauses), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab23')">Copy</button>
+        <div id="vocab23" class="prompt">Phrasal verbs: look out, get along with, hang on
+Advanced verbs: recommend, encourage, admit
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 24 -->
+    <section id="day24">
+      <h2 class="day">Day 24 — Concessive Clauses</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar24')">Copy</button>
+        <div id="grammar24" class="prompt">Explain me concessive clauses (although, even though, while, notwithstanding structures), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab24')">Copy</button>
+        <div id="vocab24" class="prompt">Phrasal verbs: take off, look down on, go without
+Advanced verbs: handle, recover, avoid
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 25 -->
+    <section id="day25">
+      <h2 class="day">Day 25 — Expressions with 'as'</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar25')">Copy</button>
+        <div id="grammar25" class="prompt">Explain me advanced expressions with 'as' (as + adjective, as if, as though, as far as, etc.), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab25')">Copy</button>
+        <div id="vocab25" class="prompt">Phrasal verbs: come up, put off, stick to
+Advanced verbs: support, influence, express
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 26 -->
+    <section id="day26">
+      <h2 class="day">Day 26 — Double Comparatives</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar26')">Copy</button>
+        <div id="grammar26" class="prompt">Explain me double comparatives (the more... the more..., comparative patterns), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab26')">Copy</button>
+        <div id="vocab26" class="prompt">Phrasal verbs: work out, catch on, set aside
+Advanced verbs: compare, decide, evaluate
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 27 -->
+    <section id="day27">
+      <h2 class="day">Day 27 — Advanced Linking Devices</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar27')">Copy</button>
+        <div id="grammar27" class="prompt">Explain me advanced linking devices (not only..., furthermore, nonetheless, consequently, etc.), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab27')">Copy</button>
+        <div id="vocab27" class="prompt">Phrasal verbs: give in, go along with, turn into
+Advanced verbs: debate, propose, respond
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 28 -->
+    <section id="day28">
+      <h2 class="day">Day 28 — Emphatic 'do'</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar28')">Copy</button>
+        <div id="grammar28" class="prompt">Explain me the emphatic 'do' (using 'do' for emphasis in present/past), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab28')">Copy</button>
+        <div id="vocab28" class="prompt">Phrasal verbs: run over, put up, carry out
+Advanced verbs: strengthen, highlight, insist
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 29 -->
+    <section id="day29">
+      <h2 class="day">Day 29 — Mixed Structures Practice</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar29')">Copy</button>
+        <div id="grammar29" class="prompt">Explain me a review of mixed advanced structures (combine conditionals, participle clauses, inversion, etc.) and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab29')">Copy</button>
+        <div id="vocab29" class="prompt">Phrasal verbs: come up with, fall apart, take back
+Advanced verbs: survive, reflect, expand
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <!-- Day 30 -->
+    <section id="day30">
+      <h2 class="day">Day 30 — Final Reflection</h2>
+      <div class="subsection">
+        <h3>Grammar Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('grammar30')">Copy</button>
+        <div id="grammar30" class="prompt">Explain me how to combine advanced structures naturally (polishing fluency and coherence), explain me the grammar structure and provide examples, then let's practice so I can internalize and understand how to use this grammar properly in my everyday English conversations.</div>
+      </div>
+      <div class="subsection">
+        <h3>Vocabulary Prompt</h3>
+        <button class="copy-btn" onclick="copyContent('vocab30')">Copy</button>
+        <div id="vocab30" class="prompt">Phrasal verbs: get over, sort out, wind up
+Advanced verbs: summarize, transition, dominate
+Task: Explain the main meaning that each verb has, let's do it one by one, not all of them at the same time. Then let's practice with each verb in context, but again don't jump into another verb without checking totally the previous.</div>
+      </div>
+    </section>
+
+    <footer>Use the copy buttons per section to paste prompts into your AI tutor. Want extra features (search, week grouping, dark/light toggle)?</footer>
   </div>
 
   <script>
-    // Copy single prompt
-    document.querySelectorAll('button.copy').forEach(btn=>{
-      btn.addEventListener('click',()=>{
-        const id=btn.getAttribute('data-target');
-        const el=document.querySelector('.prompt[data-day="'+id+'"]');
-        navigator.clipboard.writeText(el.textContent).then(()=>{
-          btn.textContent='Copied!';
-          setTimeout(()=>btn.textContent='Copy prompt',1200);
-        });
-      });
-    });
+    function copyContent(id){
+      const el=document.getElementById(id);
+      if(!el) return;
+      navigator.clipboard.writeText(el.innerText).then(()=>{
+        const orig=document.activeElement; // not used but keep
+        alert('Copied to clipboard');
+      }).catch(()=>{alert('Copy failed — your browser may block clipboard access')});
+    }
   </script>
 </body>
 </html>
